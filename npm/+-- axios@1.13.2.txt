@@ -1,0 +1,24 @@
++-- axios@1.13.2
++-- eslint@9.39.1
++-- express@5.2.1
++-- jest@30.2.0
++-- mongoose@9.0.0
+`-- typescript@5.9.3
+package.json is the central configuration file for any Node.js project. It contains metadata like project name, version, author, and description.
+
+It manages dependencies by listing all required packages under "dependencies" and development tools under "devDependencies".
+
+It defines scripts (like start, test, build) which can be executed using npm run <script> to automate tasks.
+
+It helps in version control and project consistency, ensuring the same package versions are installed across different systems.
+
+npm install uses package.json to automatically install all required packages, making it essential for project setup, sharing, and deployment.
+
+Description=> 
+1.name : name of project
+2.version : project version
+3.main : default is index.js otherwise you can change it
+4.script : custom command
+5.author : author name
+6.license : default ISC otherwise you can change it
+7.dependencies : add other package dependencies

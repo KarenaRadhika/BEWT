@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        const n=parseInt(prompt("enter length.."));
+//              *
+//             * *
+//            *   *
+//           *     *
+//          *********
+        for(let i=1;i<=n;i++){
+            for(let j=n;j>=i;j--){
+                document.write("&nbsp;&nbsp;");
+            }
+            for(let k=1;k<=i*2-1;k++){
+                if(i==n){
+                    document.write("*");
+                }else{
+                    if(k==1 || k==i*2-1){
+                        document.write("*");
+                    }else{
+                        document.write("&nbsp;&nbsp;");
+                    }
+                }
+            }
+            document.writeln("<br>");
+        }
+    </script> -->
+
+    <!-- <script>
+        const n=parseInt(prompt("enter length.."));
+        let k=1;
+//         1
+//         23
+//         456
+//         78910
+//         1112131415
+        for(let i=1;i<=n;i++){
+            for(let j=1;j<=i;j++){
+                document.write(k++);
+            }
+            document.write("<br>");
+        }
+
+    </script> -->
+
+    <script>
+//   *         *
+//   **       **
+//   ***     ***
+//   ****   ****
+//   ***** *****
+        const n=parseInt(prompt("enter length.."));
+        for(let i=1;i<=n;i++){
+            for(let j=1;j<=i;j++){
+                document.write("*");
+            }
+            for(let k=n;k>=i;k--){
+                document.write("&nbsp;&nbsp;&nbsp;&nbsp;");
+            }
+            for(let l=1;l<=i;l++){
+                document.write("*");
+            }
+            document.write("<br>");
+        }
+    </script>
+</body>
+</html>
